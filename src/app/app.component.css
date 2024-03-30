@@ -1,0 +1,74 @@
+.user-list {
+  display: flex;
+  flex-direction: column;
+  border: 3px double black;
+  border-radius: 10px;
+  margin: 10px;
+  background-color: #f4a261;
+  flex: 0, 0, calc(33.33% - 20px);
+}
+
+.mongodata {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+}
+
+.user-list>div {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+
+.user-list span {
+  font-weight: bold;
+}
+
+.content {
+  display: flex;
+  width: 100vw;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+.myForm {
+  background-color: rgba(175, 0, 50, 0.8);
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 20px;
+  border: 3px solid black;
+}
+
+.myForm > button{
+  background-color: #d3c1a6;
+  padding: 5px;
+  border-radius: 20px;
+  margin: 10px;
+  font-weight: bolder;
+  border: 2px solid black;
+}
+
+.myForm > input{
+  padding: 4px;
+  font-size: 18px;
+  background-color: #ff7477;
+  border-radius: 5px;
+}
+
+.user-card-container{
+  background-color: rgba(175, 0, 50, 0.8);
+  padding: 30px;
+  border: 3px solid black;
+  border-radius: 20px;
+}
+
+.user-card{
+  margin: 10px;
+  border: 3px double black;
+  border-radius: 5px;
+  padding: 5px;
+}
